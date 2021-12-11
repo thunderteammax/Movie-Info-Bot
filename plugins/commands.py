@@ -5,20 +5,20 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from .info import get_movie
 
 START_TEXT = """Hello {}
-I am a movie information finder bot.
+I am Star Movie and I am a bot And I Used to Find information about Movies.
 
 > `I can find information of all movies.`
 
-Made by @SLBotsOfficial"""
+Made by @TeamThunderSupport"""
 
 JOIN_BUTTONS = [
     InlineKeyboardButton(
         text='🚀 Join Bots Updates Channel 🚀',
-        url='https://telegram.me/SLBotsOfficial'
+        url='https://t.me/thunderprojectsupdates'
     ),
     InlineKeyboardButton(
-        text='🔥 Join Movie Updates Channel 🔥',
-        url='https://telegram.me/genuinemovieclub'
+        text='🔥 Join our Group🔥',
+        url='https://t.me/thundergotechnologysupport'
     )    
 ]
 
